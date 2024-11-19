@@ -1,0 +1,42 @@
+body {
+  background-color: seashell;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple; 
+}
+
+a:hover {
+  color: green; 
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+caption {
+  font-weight: bold;
+}
+th {
+  font-weight: normal; 
+  font-style: italic; 
+}
+
+td {
+  font-size: 14pt; 
+  vertical-align: top; 
+}
+.definition-box {
+  border: 3px solid yellow; 
+  width: 75%; 
+  margin: 10px auto;
+  padding: 10px;
+}
